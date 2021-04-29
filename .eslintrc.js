@@ -13,6 +13,10 @@ module.exports = {
   ],
   parser: 'vue-eslint-parser',
   parserOptions: {
+    babelOptions: {
+      cwd: '/Users/brett',
+      configFile: './forJSDoc/babel.config.js'
+    },
     parser: '@babel/eslint-parser',
     sourceType: 'module',
   },
